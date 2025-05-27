@@ -15,10 +15,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.javeriana.parcial.parcial.dtos.ContratoDTO;
+import com.javeriana.parcial.parcial.dtos.EntidadDTO;
+import com.javeriana.parcial.parcial.servicios.ContratoService;
+import com.javeriana.parcial.parcial.servicios.EntidadService;
 
 @RestController
 @RequestMapping(value = "/api/contrato")
 @CrossOrigin(origins = "*")
 public class ContratoController {
+
+
 
 }
